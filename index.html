@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-container">
+            <div class="nav-right">
+                    <a href="#" class="logo"><img src="data:image/png;base64,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" alt=""></a>
+                    <a href="#">Phones</a>
+                    <a href="#">Earbuds</a>
+                    <a href="#">Watches</a>
+                    <a href="#">Smart Home</a>
+                    <a href="#">Accessories</a>
+                    <a href="#">Offers</a>
+            </div>            
+            <div class="nav-left">
+                    <a href="#" class="search"><img src="images\search.png"></a>
+                    <a href="#" class="help"><img src="images\help.png"></a>
+                    <a href="#" class="cart"><img src="images\cart.png"></a>
+                    <a href="#" class="user"><img src="https://lh3.googleusercontent.com/a-/AFdZucp2Tzk6swuB7JMf9rLWaLVj7DhwhsW18x_FzAtJwA=s32"></a>
+            </div>
+    </div>
+    <!-- end of navigaton bar -->
+
+
+    <div class="section1">
+        <div class="sixA">
+            <div class="sixA-one">For all you are</div>
+            <div class="sixA-two">Pixel 6a is joining the family.</div>
+            <div class="sixA-three">It's the more affordable, super-fast and secure Google phone.</div>
+        </div>
+        <div class="sixApic"><img src="https://lh3.googleusercontent.com/u4YqmagFnbqVPk8AjOu0JmiXM_D3Rj9-xBSZoaf_uJ7YJIoSukuXt-qD8J-2e-G3hfr5t2677a3L--IvOAPxwUkwTeUvLSRopGg=rw-e365-w1440"></div>
+    </div>
+
+    <!-- SECTION 2-->
+   
+    <div class="pop">Popular on the Google Store.</div>
+    <div class="section2">
+        <div><div class="buds"> <img src="images\6a.png"></div>
+        <br><div class="s2text">Pixel 6A</div><br>From A$749</div>
+        <div><div class="buds"> <img src="images\buds.png"></div>
+        <br><div class="s2text">Pixel Buds Pro</div><br>From A$299</div>
+        <div><div class="buds"> <img src="images\6pro.jpg"></div>
+        <br><div class="s2text">Pixel 6 Pro</div><br>From A$1,299</div>
+        <div><div class="buds"> <img src="images\p6.jpg"></div>
+        <br><div class="s2text">Pixel 6 </div><br>From A$999</div>
+        <div><div class="buds"> <img src="images\cam.jpg"></div>
+        <br><div class="s2text">Nest Cam (battery)</div><br>From A$329</div>
+        <div><div class="buds"> <img src="images\bell.jpg"></div>
+        <br><div class="s2text">Nest Doorbell</div><br>From A$329</div>
+        <div><div class="buds"> <img src="images\cam2.jpg"></div>
+        <br><div class="s2text">Nest Cam</div><br>From A$169</div>
+
+    </div>
+    <!-- SECTION 3-->
+    
+    <div class="section3">
+    <div class="s3A">
+        <div class="s3Aa">Pixel phones <h1><br>The helpful<br>Google phones.</h1>
+        <button class="button1">Learn more</button></div>
+        <div class="s3apic"><img src="https://lh3.googleusercontent.com/44XWgLiCoo3h9E4Trqd0XKm_KIBFVOVt7boNiq0zLb4kN2L3KNkUa6-Su5jVQXhEP90D0PoMx4A3pe2Orv_s-GtWHom0353SeMI"></div>
+    </div>   
+    <div class="s3A">
+        <div class="s3Ab">Pixel Buds <h1><br>Great sound.<br> All around.</h1>
+        <button class="button1">Explore around</button></div>
+        <div class="s3apic"><img src="https://lh3.googleusercontent.com/ElAtPMxug4R9ZKu_VY4HqyyoER34b5j2C-th5ybswibKxV7ELtICkaTrJw3VOpvtacWpp1OmifIzoUapluxnGcMGxwZIYW8E5g"></div>
+    </div>
+</div>
+
+<!--SECTION 4-->
+<div class="pop">Shop by category.</div>
+<div class="section4">
+    <div class="s4img"><img src="images\packages.png">Packages</div>
+    <div class="s4img"><img src="images\displays.png">Displays</div>
+    <div class="s4img"><img src="images\speakers.png">Speakers</div>
+    <div class="s4img"><img src="images\streaming.png">Streaming</div>
+</div>
+
+<!--SECTION 5-->
+<div class="sec5">
+    <div class="pics5">
+        <div class="text5a">Set your clocks:<br>Google Pixel Watch.<br><button class="button1">Learn more</button></div> 
+        <img class="img5a" src="images\watch5.webp">
+        <div class="text5b">The wait is on:<br>Pixel 7 phones.<br><button class="button1">Learn more</button></div>
+        <img class="img5b" src="images\phone5.webp">
+    </div>
+</div>
+
+<!--SECTION 6-->
+<div class="sec6">
+    <div class="text6a">Our ambitions</div>
+    <div class="text6b">Making sustainable and<br>accessible produts</div>
+    <button class="button1">Learn more</button>
+    <img src="https://lh3.googleusercontent.com/ansP3Zx5r_mtmhyyhGrRdFzecPyLIsfwnvz0R-b4d09BE2zE6jHlX7D7eiMog5pJmjl4Eb8e19k2rm2IsuLtxLLBOSVtZdE5RA=rw-e365-w1440">
+</div>
+
+<!--SECTION 7-->
+<div class="sec7">
+    <img src="images/tag.svg">
+    <div class="text7a"> Keep me updated about devices,news,tips<br>and offers from google store  </div>
+    <button class="button1">Sign up</button>
+</div>
+</body>
+
+<footer> 
+    <div class="foot">*Colour availability may vary by region. <br>1.Compared to MSRP of Pixel 6. <br>2.This device may not be sold or otherwise distributed until required legal authorisations have been obtained.</div>
+    <div class="lis">	
+    <ul>   
+        <li><a>Placing an order</a></li>
+        <li><a>options</a></li>
+        <li><a >package</a></li>
+        <li><a >Country availability</a></li>
+    </ul> 
+    <ul>  
+        <li><a>Centre</a></li>
+        <li><a>Contact us</a></li>
+        <li><a>Device recycling</a></li>
+        <li><a>Sustainability</a></li>
+    </ul> 
+    </div>
+
+    <div class="nav-container">
+        <div class="nav-right">
+            <a href="#" class="search"><img src="images\twit.png"></a>
+            <a href="#" class="help"><img src="images\insta.png"></a>
+            <a href="#" class="cart"><img src="images\fb.png"></a>
+            <a href="#" class="user"><img src="images\yt.png"></a>
+                
+        </div>            
+        <div class="nav-left">
+                <div class="logo"><img src="https://ssl.gstatic.com/store/images/regionflags/australia.png" alt=""></a>
+                <a href="#">Australia</a>
+                <a href="#">Privacy</a>
+                <a href="#">Google Nest Commitment to Privacy</a>
+                <a href="#">Sales Terms</a>
+                <a href="#">Terms of servise</a>   
+        </div>
+</div>
+
+</footer>
+</html>
